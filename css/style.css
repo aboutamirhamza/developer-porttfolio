@@ -126,6 +126,10 @@ h1,h2,h3,h4,h5,h6,p,div,span{
     margin-right: 15px;
 }
 
+.mt-30{
+    margin-top: 30px;
+}
+
 main section{
     margin-top: 130px;
     margin-bottom: 130px;
@@ -264,3 +268,79 @@ main section{
     line-height: 30px;
 }
 /* Services Section Style End */
+
+/* Resume Section Style Start */
+
+
+.resume-main{
+    display: flex;
+    gap: 60px;
+}
+
+.resume-main .resume-item-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-main .resumes-items{
+    margin-top: 30px;
+}
+
+.resume-main .resumes-items .items-title{
+     font-weight: 700;
+     font-size: 20px;
+     color: #474747;
+}
+
+.resume-main .resumes-items .sub-title{
+    font-weight: 600;
+    font-size: 16px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+
+.resume-main .resumes-items .items-description{
+    font-size: 16px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+/* Resume Section Style End*/
+
+/* Footer Section Style Start */
+.footer-section{
+    padding: 130px 230px;
+    margin-top: 130px;
+}
+
+.footer-section .footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section .footer-items{
+    max-width: 50%;
+}
+.footer-section .social{
+    margin-top: 20px;
+}
+
+.footer-section .social a{
+    margin-right: 10px;
+}
+
+.footer-section .social a i{
+    font-size: 20px;
+    color: #FD6E0A;
+}
+
+.footer-section .footer-items input[type="text"],input[type="email"],textarea{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+/* Footer Section Style End */
