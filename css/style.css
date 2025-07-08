@@ -103,13 +103,32 @@ h1,h2,h3,h4,h5,h6,p,div,span{
     color: #000000;
 }
 
-main section{
-    margin-top: 130px;
-    margin-bottom: 130px;
+.section-heading{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.section-description{
+    font-size: 18px;
+    color:#757575;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
 }
 
 .mr-15{
     margin-right: 15px;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 /* Header Navbar Style Start */
@@ -178,7 +197,70 @@ main section{
     padding: 0 350px 0 0;
     margin-bottom: 30px;
 }
-
-
-
 /* Header Navbar Style End */
+
+/* About Section Style Start */
+
+.about-section{
+    margin: 0 300px;
+}
+
+.about-container{
+    padding: 130px 150px;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+
+.about-main-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.about-main-content .about-items h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-main-content .about-items h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+/* About Section Style End */
+
+/* Services Section Style Start */
+
+
+.service-container .section-description{
+    margin-bottom: 50px;
+}
+
+.secvice-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.secvice-item .services-items{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.services-items img{
+    margin-bottom: 30px;
+}
+
+.services-items .services-title{
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.services-items .services-description{
+    font-size: 16px;
+    color: #757575;
+    line-height: 30px;
+}
+/* Services Section Style End */
