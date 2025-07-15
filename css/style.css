@@ -344,3 +344,385 @@ main section{
     border: none;
 }
 /* Footer Section Style End */
+
+/* Responsive Style Start */
+
+@media screen and (max-width:576px) {
+    /* Header Navbar Style Responsive Start */
+    .navbar,
+    .banner-section,
+    .secvice-item,
+    .resume-main,
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .banner-section{
+        margin: 30px;
+        text-align: center;
+    }
+
+    .banner-container .banner-description{
+        padding: 10px;
+    }
+
+    .header-container{
+        background-image: none;
+    }
+
+    .banner-section img{
+        width: 100%;
+    }
+
+    .navbar{
+        gap: 20px;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar .my-btn{
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+
+    /* Header Navbar Style Responsive End */
+
+    /* About Style Responsive Start */
+    .about-section {
+        margin: 0;
+    }
+
+    .about-container{
+        padding: 40px;
+    }
+
+    .about-main-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* About Style Responsive End */
+
+    /* Service Style Responsive Start */
+    .service-section{
+        padding: 0 20px;
+    }
+    /* Service Style Responsive End */
+
+    /* Resume Style Responsive Start */
+    .resume-section{
+        padding: 0 20px;
+    }
+    /* Resume Style Responsive End */
+
+    /* Footer Style Responsive Start */
+    .footer-section {
+        padding: 30px;
+    }
+
+    .footer-section .footer-items {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+  
+    /* Footer Style Responsive End */
+
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    /* Header Navbar Style Responsive Start */
+    .navbar,
+    .banner-section,
+    .secvice-item,
+    .resume-main,
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .banner-section{
+        margin: 30px;
+        text-align: center;
+    }
+
+    .banner-container .banner-description{
+        padding: 10px;
+    }
+
+    .header-container{
+        background-image: none;
+    }
+
+    .banner-section img{
+        width: 100%;
+    }
+
+    .navbar{
+        gap: 20px;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar .my-btn{
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+
+    /* Header Navbar Style Responsive End */
+
+    /* About Style Responsive Start */
+    .about-section {
+        margin: 0;
+    }
+
+    .about-container{
+        padding: 40px;
+    }
+
+    .about-main-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* About Style Responsive End */
+
+    /* Service Style Responsive Start */
+    .service-section{
+        padding: 0 20px;
+    }
+    /* Service Style Responsive End */
+
+    /* Resume Style Responsive Start */
+    .resume-section{
+        padding: 0 20px;
+    }
+    /* Resume Style Responsive End */
+
+        /* Footer Style Responsive Start */
+    .footer-section {
+        padding: 30px;
+    }
+
+    .footer-section .footer-items {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+  
+    /* Footer Style Responsive End */
+}
+
+@media screen and (min-width:992px) and (max-width:1025px){
+
+    /* Header Navbar Style Responsive Start */
+
+    .navbar,
+    .banner-section{
+        flex-direction: column;
+    }
+
+    .banner-section{
+        margin: 30px;
+        text-align: center;
+    }
+
+    .banner-container .banner-description{
+        padding: 10px;
+    }
+
+    .header-container{
+        background-image: none;
+    }
+
+    .banner-section img{
+        width: 100%;
+    }
+
+    .navbar{
+        gap: 20px;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar .my-btn{
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+
+    /* Header Navbar Style Responsive End */
+
+    /* About Style Responsive Start */
+    .about-section {
+        margin: 0;
+    }
+
+    .about-container{
+        padding: 40px;
+    }
+
+    .about-main-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* About Style Responsive End */
+
+    /* Service Style Responsive Start */
+
+    .secvice-item{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .service-section{
+        padding: 0 20px;
+    }
+    /* Service Style Responsive End */
+
+    /* Resume Style Responsive Start */
+    .resume-section{
+        padding: 0 20px;
+    }
+    /* Resume Style Responsive End */
+
+    /* Footer Style Responsive Start */
+
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .footer-section {
+        padding: 30px;
+    }
+
+    .footer-section .footer-items {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+  
+    /* Footer Style Responsive End */
+
+    
+}
+
+@media screen and (min-width:1025px) and (max-width:1342px){
+
+    /* Banner Style Responsive Start */
+
+    .banner-container .banner-description {
+        padding: 0;
+    }
+
+    .banner-section img{
+        width: calc(100% - 300px);
+    }
+
+    .banner-section {
+        margin: 50px;
+        gap: 0;
+    }
+
+    .mr-15{
+        margin-right: 5px;
+    }
+
+    /* Banner Style Responsive End */
+
+    /* About Style Responsive Start */
+    .about-section {
+        margin: 0;
+    }
+
+    .about-container{
+        padding: 40px;
+    }
+
+    .about-main-content{
+        flex-direction: row;
+        gap: 20px;
+    }
+    /* About Style Responsive End */
+
+    /* Service Style Responsive Start */
+
+    .secvice-item{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .service-section{
+        padding: 0 20px;
+    }
+    /* Service Style Responsive End */
+
+     /* Resume Style Responsive Start */
+    .resume-section{
+        padding: 0 20px;
+    }
+    /* Resume Style Responsive End */
+
+    /* Footer Style Responsive Start */
+
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .footer-section {
+        padding: 30px;
+    }
+
+    .footer-section .footer-items {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+  
+    /* Footer Style Responsive End */
+}
+
+@media screen and (min-width:1342px) and (max-width:1891px){
+    /* Banner Style Responsive Start */
+    .banner-container .banner-description {
+        padding: 0;
+    }
+
+    .banner-section img{
+        width: calc(100% - 500px);
+    }
+
+    .banner-section {
+        margin: 100px;
+        gap: 0;
+    }
+
+    .mr-15{
+        margin-right: 15px;
+    }
+
+    /* Banner Style Responsive End */
+
+    /* Footer Style Responsive Start */
+
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .footer-section {
+        padding: 30px;
+    }
+
+    .footer-section .footer-items {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+  
+    /* Footer Style Responsive End */
+}
+
+/* Responsive Style End */
